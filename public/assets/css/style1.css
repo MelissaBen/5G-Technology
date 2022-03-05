@@ -136,6 +136,7 @@ img {
 }
 em {
     color: #fe664e;
+    font-weight: bold;
 }
 
 .list li {
