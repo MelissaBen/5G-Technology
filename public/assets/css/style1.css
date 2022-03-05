@@ -134,7 +134,16 @@ img {
   width: 100%;
   overflow: hidden;
 }
+em {
+    color: #fe664e;
+}
 
+.list li {
+  font-size: 25px;
+  line-height: 35px;
+  padding: 10px;
+  font-style: italic;
+}
 /* 
 ---------------------------------------------
 global styles
