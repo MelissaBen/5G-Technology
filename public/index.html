@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
-  <title>DIGITAL CULTURe-ECV</title>
+  <title>DIGITAL CULTURE ECV</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -172,6 +172,29 @@ https://templatemo.com/tm-568-digimedia
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBs4iHoDFsC-SoaBQrsupgt3OjDzk3ViOw",
+      authDomain: "fifth-generation-technology.firebaseapp.com",
+      projectId: "fifth-generation-technology",
+      storageBucket: "fifth-generation-technology.appspot.com",
+      messagingSenderId: "123695602458",
+      appId: "1:123695602458:web:04f024795e5f6ee4a32aa3",
+      measurementId: "G-GLMTD5W6BX"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
 
 </html>
