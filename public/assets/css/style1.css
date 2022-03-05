@@ -263,9 +263,10 @@ intro
 */
 
 .intro-banner img {
-  max-width: 152px;
+  max-width: 552px;
   margin-bottom: 30px;
 }
+
 
 .intro-banner h1 {
   font-size: 36px;
@@ -274,6 +275,8 @@ intro
   margin-bottom: 30px;
   position: relative; 
   z-index: 2;
+  color: blueviolet;
+  letter-spacing: 15px;
 }
 
 .intro-banner h4 {
@@ -2017,11 +2020,11 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 130px;
+  background-image: url(../images/footer-bg-v2.jpg);
 }
 
 footer p {
