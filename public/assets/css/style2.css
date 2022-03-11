@@ -1406,7 +1406,7 @@ Free Quote
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 60px 0px;
+  padding: 15px 0px;
   text-align: center;
   position: relative;
   z-index: 2;
@@ -2107,5 +2107,6 @@ responsive
   .dropmobile {
     position: relative !important;
     top: -45px !important;
+    text-align: center;
   }
 }
